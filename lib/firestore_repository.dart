@@ -6,17 +6,24 @@ class FirestoreRepository {
   FirestoreRepository(this._firestore);
   final FirebaseFirestore _firestore;
 
-  Future<void> addTask(String uid, String Heading, DateTime Deadline) async {
-    final docRef = await _firestore.collection('Tasks').add({
+  Future<void> addTask(String uid, String Heading, DateTime Deadline,
+      FieldValue taskPostDate) async {
+    final docRef =
+        await _firestore.collection('Users').doc(uid).collection('Tasks').add({
       'uid': uid,
       'Heading': Heading,
       'Deadline': Deadline,
+      'taskPostDate': taskPostDate,
     });
     debugPrint(docRef.id);
   }
 
-  Query<Map<String, dynamic>> jobsQuery() {
-    return _firestore.collection('job');
+  Query<Map<String, dynamic>> taskQuery(String uid) {
+    return _firestore
+        .collection('Users')
+        .doc(uid)
+        .collection('Tasks')
+        .orderBy('taskPostDate');
   }
 }
 

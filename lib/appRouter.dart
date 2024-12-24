@@ -1,3 +1,4 @@
+import 'package:day_counter/Screens/Goal_Screen.dart';
 import 'package:day_counter/Screens/home_Screen.dart';
 import 'package:day_counter/Screens/profile_screen.dart';
 import 'package:day_counter/Screens/signIn_Screen.dart';
@@ -11,6 +12,7 @@ enum appRoutes {
   home,
   signIn,
   profile,
+  GridDates,
 }
 
 final FirebaseAuthProvider = Provider<FirebaseAuth>((ref) {
@@ -46,5 +48,10 @@ final goRouterProvider = Provider<GoRouter>((ref) {
                   name: appRoutes.profile.name,
                   builder: (context, state) => const CustomProfileScreen())
             ]),
+        GoRoute(
+          path: '/GridDates',
+          name: appRoutes.GridDates.name,
+          builder: (context, state) => GoalScreen(),
+        )
       ]);
 });
