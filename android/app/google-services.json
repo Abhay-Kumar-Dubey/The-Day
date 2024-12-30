@@ -12,7 +12,20 @@
           "package_name": "com.example.d"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "24075259655-9birbgil23hi460avp1j8320id4ib7ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.d",
+            "certificate_hash": "9f574d8af3a4be05f471b935cbafb1586c69140b"
+          }
+        },
+        {
+          "client_id": "24075259655-q8vmn20220h14nekcso9h04fosr5cd37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB-8y0M605pxjpgAjEhCEldTVRcluvfI0g"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24075259655-q8vmn20220h14nekcso9h04fosr5cd37.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "24075259655-72c4f5memb0s59l8b99mnfpjps15fk8m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dayCounter"
+              }
+            }
+          ]
         }
       }
     }

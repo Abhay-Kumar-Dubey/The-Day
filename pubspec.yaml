@@ -43,10 +43,17 @@ dependencies:
   cloud_firestore: ^5.6.0
   firebase_ui_firestore: ^1.7.0
   intl: ^0.19.0
+  lottie: ^3.3.0
+  animated_splash_screen: ^1.3.0
+  provider: ^6.1.2
+  shared_preferences: ^2.3.4
+  firebase_ui_oauth_google: ^1.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -67,8 +74,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+  - assets/animations/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -82,17 +89,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Rockybilly
+      fonts:
+        - asset: assets/Fonts/Rockybilly.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    - family: AmericanCaptain
+      fonts:
+        - asset: assets/Fonts/AmericanCaptain.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
