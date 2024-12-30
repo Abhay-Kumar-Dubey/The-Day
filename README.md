@@ -49,22 +49,22 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
 
 <div align="center">
   <figure>
-    <img src="Screenshots/SplashScreen.png" alt="Screenshot 1" width="300">
+    <img src="Screenshots/SplashScreen.png" alt="Screenshot 1" width="150">
     <figcaption>Screenshot 1: Description of what this screenshot shows.</figcaption>
   </figure>
   <br>
   <figure>
-    <img src="Screenshots/HomePage_dark.png" alt="Screenshot 2" width="300">
+    <img src="Screenshots/HomePage_dark.png" alt="Screenshot 2" width="150">
     <figcaption>Screenshot 2: Description of another feature.</figcaption>
   </figure>
    <br>
   <figure>
-    <img src="Screenshots/HomePage_light.png" alt="Screenshot 2" width="300">
+    <img src="Screenshots/HomePage_light.png" alt="Screenshot 2" width="150">
     <figcaption>Screenshot 2: Description of another feature.</figcaption>
   </figure>
    <br>
   <figure>
-    <img src="Screenshots/DaysGrid.png" alt="Screenshot 2" width="300">
+    <img src="Screenshots/DaysGrid.png" alt="Screenshot 2" width="150">
     <figcaption>Screenshot 2: Description of another feature.</figcaption>
   </figure>
 </div>
