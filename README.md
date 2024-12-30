@@ -57,7 +57,7 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
     <img src="Screenshots/HomePage_dark.png" alt="Screenshot 2" width="150">
     <figcaption>Home Screen Dark Theme</figcaption>
   </figure>
-   <br>
+   <br><br><br>
   <figure>
     <img src="Screenshots/HomePage_light.png" alt="Screenshot 2" width="150">
     <figcaption>Home Screen Light Theme</figcaption>
