@@ -47,6 +47,8 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
 
 ## 🖼️ Screenshots
 
+![Home Screen](https://github.com/Abhay-Kumar-Dubey/The-Day/blob/main/Screenshots/HomePage_light.png?raw=true)
+
 
 
 ## 🛠️ Tech Stack
