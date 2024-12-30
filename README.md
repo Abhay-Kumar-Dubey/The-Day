@@ -67,6 +67,16 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
     <img src="Screenshots/DaysGrid.png" alt="Screenshot 2" width="150">
     <figcaption>List of Days</figcaption>
   </figure>
+   <br><br><br>
+  <figure>
+    <img src="Screenshots/GoalCompleted.png" alt="Screenshot 2" width="150">
+    <figcaption>When Goal is achieved</figcaption>
+  </figure>
+   
+  <figure>
+    <img src="Screenshots/GoalInCompleted.png" alt="Screenshot 2" width="150">
+    <figcaption>When Goal is not achieved</figcaption>
+  </figure>
 </div>
 
 
