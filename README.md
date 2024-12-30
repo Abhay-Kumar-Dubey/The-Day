@@ -74,7 +74,7 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
   </figure>
    
   <figure>
-    <img src="Screenshots/GoalInCompleted.png" alt="Screenshot 2" width="150">
+    <img src="Screenshots/GoalInComplete.png" alt="Screenshot 2" width="150">
     <figcaption>When Goal is not achieved</figcaption>
   </figure>
 </div>
