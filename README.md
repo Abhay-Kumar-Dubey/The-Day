@@ -57,12 +57,12 @@ The Day is a simple and intuitive 🐦 Flutter application that allows users to 
     <img src="Screenshots/HomePage_dark.png" alt="Screenshot 2" width="150">
     <figcaption>Home Screen Dark Theme</figcaption>
   </figure>
-   
+   <br>
   <figure>
     <img src="Screenshots/HomePage_light.png" alt="Screenshot 2" width="150">
     <figcaption>Home Screen Light Theme</figcaption>
   </figure>
-   <br>
+   
   <figure>
     <img src="Screenshots/DaysGrid.png" alt="Screenshot 2" width="150">
     <figcaption>List of Days</figcaption>
